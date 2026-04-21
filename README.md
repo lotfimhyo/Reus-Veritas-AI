@@ -1,2 +1,2 @@
 # Reus-Veritas-AI
-An open-source framework for a new generation of loyal, evolving, and decentralized artificial intelligence. 
+This repository is a theoretical simulation of an AI framework. All files present represent proposed ideas and concepts that have not yet been implemented or tested. The written code is a demonstrative prototype only and not a functioning real system.
