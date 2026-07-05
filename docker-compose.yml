@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  reus-veritas:
+    build: .
+    container_name: reus_veritas_os
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data
+    network_mode: "${NETWORK_MODE:-bridge}"
+    restart: unless-stopped
